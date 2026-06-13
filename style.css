@@ -44,3 +44,99 @@ p {
 
   color:rgba(36,33,42,.7);
 }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 34px 7%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 10;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: rgba(36,33,42,.82);
+}
+
+.nav-links {
+  display: flex;
+  gap: 34px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgba(36,33,42,.68);
+  font-size: 14px;
+  letter-spacing: .04em;
+}
+
+.nav-links a:hover {
+  color: rgba(36,33,42,1);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+}
+
+.hero-buttons {
+  margin-top: 38px;
+
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.btn {
+  min-width: 160px;
+  padding: 15px 28px;
+
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+
+  backdrop-filter: blur(12px);
+  transition: all .35s ease;
+}
+
+.btn.primary {
+  background: rgba(36,33,42,.82);
+  color: white;
+}
+
+.btn.secondary {
+  border: 1px solid rgba(36,33,42,.38);
+  color: rgba(36,33,42,.9);
+  background: rgba(255,255,255,.18);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    padding: 26px 24px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 220px;
+  }
+}
