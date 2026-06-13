@@ -57,7 +57,7 @@ body {
 
 .hero-content h1{
   font-family: 'Playfair Display', serif;
-  font-size: clamp(76px, 8.5vw, 130px);
+  font-size: clamp(20px, 2vw, 32px);
   font-weight: 400;
   letter-spacing: -4px;
   line-height: 0.88;
