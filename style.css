@@ -1,8 +1,13 @@
-body {
+* {
   margin: 0;
-  font-family: "Inter", sans-serif;
-  background: #f7f3ec;
-  color: #24212a;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #2f3042;
+  background: #f7fbff;
 }
 
 .hero {
