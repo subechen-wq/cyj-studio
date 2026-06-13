@@ -56,8 +56,12 @@ body {
 }
 
 .hero-content h1{
+  font-family: 'Playfair Display', serif;
   font-size: clamp(76px, 8.5vw, 130px);
+  font-weight: 400;
   letter-spacing: -4px;
+  line-height: 0.88;
+  color: rgba(35,35,55,.92);
   margin-bottom: 30px;
 }
 
@@ -69,7 +73,11 @@ p {
 }
 
 .hero-content p{
+  font-family: 'Playfair Display', serif;
   font-size: clamp(24px, 2.5vw, 36px);
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: rgba(52,52,72,.78);
   margin-bottom: 30px;
 }
 
@@ -155,7 +163,14 @@ p {
   min-width: 190px;
   padding: 16px 32px;
   border-radius: 16px;
+  text-decoration: none;
   font-size: 16px;
+  font-family: "Playfair Display", serif;
+  backdrop-filter: blur(20px);
+  transition: all .4s ease;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn.primary {
