@@ -13,6 +13,16 @@ body {
 
   text-align: center;
 
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
   background-image:
     linear-gradient(
       rgba(255,255,255,.12),
@@ -23,6 +33,21 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  transform: scale(1.04);
+  animation: waterDrift 18s ease-in-out infinite alternate;
+
+  z-index: 1;
+}
+
+@keyframes waterDrift {
+  from {
+    transform: scale(1.04) translate(-8px, -6px);
+  }
+
+  to {
+    transform: scale(1.08) translate(8px, 6px);
+  }
 }
 
 h1 {
