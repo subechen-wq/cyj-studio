@@ -55,14 +55,19 @@ body {
   }
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: clamp(82px, 10vw, 150px);
-  font-weight: 500;
-  line-height: .9;
-  letter-spacing: -0.055em;
-  color: rgba(32, 29, 42, .88);
-  margin-bottom: 30px;
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(88px, 10vw, 160px);
+
+  font-weight: 400;
+
+  letter-spacing: -5px;
+
+  line-height: 0.9;
+
+  color: rgba(34,34,52,.92);
+
+  margin-bottom: 24px;
 }
 
 p {
@@ -73,11 +78,19 @@ p {
 }
 
 .subtitle {
-  margin-top: 24px;
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  letter-spacing: .08em;
-  color: rgba(36,33,42,.78);
+  margin-top: 0;
+
+  font-family: 'Playfair Display', serif;
+
+  font-size: clamp(28px,3vw,46px);
+
+  font-weight: 400;
+
+  letter-spacing: -0.5px;
+
+  color: rgba(50,48,68,.78);
+
+  margin-bottom: 26px;
 }
 
 .navbar {
@@ -121,7 +134,9 @@ p {
   position: relative;
   z-index: 3;
   text-align: center;
-  transform: translateY(22px);
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 8vh;
 }
 
 .hero-buttons {
