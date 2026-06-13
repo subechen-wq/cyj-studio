@@ -98,7 +98,7 @@ p {
 
   margin-top: 0;
 
-  margin-bottom: 64px;
+  margin-bottom: 80px;
 }
 
 .navbar {
@@ -183,7 +183,7 @@ p {
 
   padding-top: 42px;
 
-  transform: translateY(50px);
+  transform: translateY(30px);
 }
 
 .hero-buttons {
