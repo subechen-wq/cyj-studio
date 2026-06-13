@@ -7,11 +7,23 @@ body {
 
 .hero {
   min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   text-align: center;
-  padding: 40px;
+
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,.12),
+      rgba(255,255,255,.12)
+    ),
+    url("images/hero-bg.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
