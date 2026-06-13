@@ -29,11 +29,11 @@ body {
   inset: 0;
 
   background-image:
-    linear-gradient(
-      rgba(255,255,255,.12),
-      rgba(255,255,255,.12)
-    ),
-    url("images/hero-bg.png");
+  linear-gradient(
+    rgba(255,255,255,.28),
+    rgba(255,255,255,.28)
+  ),
+  url("images/hero-bg.png");
 
   background-size: cover;
   background-position: center;
