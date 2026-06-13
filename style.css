@@ -277,13 +277,13 @@ p {
 
 .mouse-glow {
   position: absolute;
-  width: 360px;
-  height: 360px;
+  width: 520px;
+  height: 520px;
   border-radius: 50%;
 
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, .32) 0%,
+    rgba(255, 255, 255, .18) 0%,
     rgba(210, 232, 255, .18) 35%,
     rgba(255, 255, 255, 0) 70%
   );
