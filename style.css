@@ -274,3 +274,24 @@ p {
   z-index: 2;
   pointer-events: none;
 }
+
+.mouse-glow {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, .32) 0%,
+    rgba(210, 232, 255, .18) 35%,
+    rgba(255, 255, 255, 0) 70%
+  );
+
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity .4s ease;
+
+  z-index: 2;
+}
