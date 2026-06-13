@@ -51,23 +51,28 @@ body {
 }
 
 h1 {
-  font-size: clamp(72px, 8vw, 110px);
-  margin-bottom: 24px;
   font-family: "Playfair Display", serif;
+  font-size: clamp(82px, 10vw, 150px);
+  font-weight: 500;
+  line-height: .9;
+  letter-spacing: -0.055em;
+  color: rgba(32, 29, 42, .88);
+  margin-bottom: 30px;
 }
 
 p {
-  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(24px, 2.4vw, 38px);
+  font-weight: 500;
+  color: rgba(54, 49, 66, .72);
 }
 
-.subtitle{
-  margin-top:20px;
-
-  font-size:18px;
-
-  letter-spacing:2px;
-
-  color:rgba(36,33,42,.7);
+.subtitle {
+  margin-top: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  letter-spacing: .08em;
+  color: rgba(36,33,42,.78);
 }
 
 .navbar {
@@ -99,8 +104,8 @@ p {
 .nav-links a {
   text-decoration: none;
   color: rgba(36,33,42,.68);
-  font-size: 14px;
-  letter-spacing: .04em;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
 }
 
 .nav-links a:hover {
@@ -110,25 +115,25 @@ p {
 .hero-content {
   position: relative;
   z-index: 3;
+  text-align: center;
+  transform: translateY(22px);
 }
 
 .hero-buttons {
-  margin-top: 38px;
-
+  margin-top: 44px;
   display: flex;
   justify-content: center;
-  gap: 18px;
+  gap: 24px;
 }
 
 .btn {
-  min-width: 160px;
-  padding: 15px 28px;
-
-  border-radius: 8px;
+  min-width: 190px;
+  padding: 16px 34px;
+  border-radius: 6px;
   text-decoration: none;
-  font-size: 15px;
-
-  backdrop-filter: blur(12px);
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  backdrop-filter: blur(14px);
   transition: all .35s ease;
 }
 
@@ -153,7 +158,15 @@ p {
   }
 
   .navbar {
-    padding: 26px 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 34px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
   }
 
   .hero-buttons {
