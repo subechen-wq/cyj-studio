@@ -55,19 +55,12 @@ body {
   }
 }
 
-.hero-content h1{
-  font-family: 'Playfair Display', serif;
-
-  font-size: clamp(90px, 9vw, 140px);
-
-  font-weight: 400;
-
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(86px, 9vw, 148px);
+  font-weight: 500;
   letter-spacing: -4px;
-
-  line-height: .9;
-
-  color: rgba(35,35,55,.92);
-
+  line-height: 0.9;
   margin-bottom: 18px;
 }
 
