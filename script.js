@@ -16,8 +16,8 @@ function addRipple(x, y) {
     x: x,
     y: y,
     radius: 0,
-    alpha: 0.35,
-    speed: 1.8
+    alpha: 0.55,
+    speed: 2.3
   });
 
   if (ripples.length > 12) {
@@ -42,11 +42,11 @@ function animateRipples() {
     ctx.beginPath();
     ctx.arc(ripple.x, ripple.y, ripple.radius, 0, Math.PI * 2);
     ctx.strokeStyle = "rgba(255,255,255," + ripple.alpha + ")";
-    ctx.lineWidth = 1.3;
+    ctx.lineWidth = 2;
     ctx.stroke();
 
     ripple.radius += ripple.speed;
-    ripple.alpha -= 0.005;
+    ripple.alpha -= 0.004;
 
     if (ripple.alpha <= 0) {
       ripples.splice(index, 1);
