@@ -55,17 +55,18 @@ body {
   }
 }
 
-.hero-content h1 {
+.hero-content h1{
   font-family: 'Playfair Display', serif;
-  font-size: clamp(88px, 10vw, 160px);
+
+  font-size: clamp(90px, 10vw, 160px);
 
   font-weight: 400;
 
   letter-spacing: -5px;
 
-  line-height: 0.9;
+  line-height: 0.88;
 
-  color: rgba(34,34,52,.92);
+  color: rgba(35,35,55,.92);
 
   margin-bottom: 24px;
 }
@@ -77,9 +78,7 @@ p {
   color: rgba(54, 49, 66, .72);
 }
 
-.subtitle {
-  margin-top: 0;
-
+.hero-content p{
   font-family: 'Playfair Display', serif;
 
   font-size: clamp(28px,3vw,46px);
@@ -88,9 +87,27 @@ p {
 
   letter-spacing: -0.5px;
 
-  color: rgba(50,48,68,.78);
+  color: rgba(52,52,72,.78);
 
-  margin-bottom: 26px;
+  margin-bottom: 24px;
+}
+
+.subtitle{
+  font-family: 'Inter', sans-serif;
+
+  font-size: 18px;
+
+  font-weight: 300;
+
+  letter-spacing: 5px;
+
+  text-transform: uppercase;
+
+  color: rgba(45,47,64,.72);
+
+  margin-top: 0;
+
+  margin-bottom: 60px;
 }
 
 .navbar {
@@ -99,7 +116,7 @@ p {
   left: 0;
 
   width: 100%;
-  padding: 34px 7%;
+  padding: 38px 8%;
 
   display: flex;
   justify-content: space-between;
@@ -109,34 +126,44 @@ p {
 }
 
 .logo {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 24px;
-  color: rgba(36,33,42,.82);
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  color: rgba(35, 35, 55, .9);
 }
 
 .nav-links {
   display: flex;
-  gap: 34px;
+  gap: 42px;
+  align-items: center;
 }
 
 .nav-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .18em;
+  text-transform: uppercase;
   text-decoration: none;
-  color: rgba(36,33,42,.68);
-  font-family: "Playfair Display", serif;
-  font-size: 16px;
+  color: rgba(35, 35, 55, .62);
+  transition: color .3s ease, opacity .3s ease;
 }
 
 .nav-links a:hover {
-  color: rgba(36,33,42,1);
+  color: rgba(35, 35, 55, .95);
 }
-
 .hero-content {
   position: relative;
   z-index: 3;
+
   text-align: center;
+
   max-width: 980px;
+
   margin: 0 auto;
-  padding-top: 8vh;
+
+  padding-top: 14vh;
 }
 
 .hero-buttons {
