@@ -24,21 +24,16 @@ body {
 
 .hero::before{
   content:"";
-
   position:absolute;
-
   inset:0;
-
   background:
     radial-gradient(
       circle at center,
-      rgba(255,255,255,.32) 0%,
-      rgba(255,255,255,.18) 35%,
+      rgba(255,255,255,.08) 0%,
+      rgba(255,255,255,.04) 35%,
       rgba(255,255,255,0) 70%
     );
-
   z-index:1;
-
   pointer-events:none;
 }
 
