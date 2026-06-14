@@ -646,8 +646,8 @@ p {
 
 .service-item:hover{
 
-  box-shadow:
-  inset 0 1px 0 rgba(185,210,235,.55);
+  border-top:
+  1px solid rgba(185,210,235,.55);
 
 }  
 
