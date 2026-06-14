@@ -538,8 +538,8 @@ p {
 }
 
 .services {
-  background: #f6fbff;
-  padding: 150px 8%;
+  background:transparent;
+  padding:180px 8%;
 }
 
 .services-header {
