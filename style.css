@@ -491,10 +491,10 @@ p {
 
 .capability-card p{
 
-  font-size:15px;
+  font-size:17px;
   line-height:1.9;
 
   color:
-  rgba(31,41,51,.72);
+  color: rgba(31,41,51,.72);
 }
 
