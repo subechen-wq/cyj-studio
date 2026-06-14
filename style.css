@@ -308,29 +308,32 @@ p {
   content:"";
 
   position:absolute;
-  inset:0;
+  left:-120px;
+  bottom:-160px;
+
+  width:520px;
+  height:520px;
 
   background:
-    repeating-linear-gradient(
-      115deg,
-      rgba(185,157,125,.055) 0px,
-      rgba(185,157,125,.055) 1px,
-      transparent 1px,
-      transparent 34px
-    ),
     radial-gradient(
-      circle at 22% 50%,
-      rgba(255,255,255,.75),
-      transparent 28%
-    ),
-    radial-gradient(
-      circle at 75% 45%,
-      rgba(185,157,125,.16),
-      transparent 34%
+      circle,
+      transparent 0%,
+      transparent 38%,
+      rgba(185,157,125,.10) 39%,
+      transparent 40%,
+      transparent 52%,
+      rgba(185,157,125,.075) 53%,
+      transparent 54%,
+      transparent 66%,
+      rgba(185,157,125,.05) 67%,
+      transparent 68%
     );
 
-  opacity:.85;
+  opacity:.55;
+  filter: blur(.3px);
   pointer-events:none;
+  position: relative;
+  overflow: hidden;
 }
 
   opacity:.7;
