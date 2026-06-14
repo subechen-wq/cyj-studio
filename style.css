@@ -574,3 +574,60 @@ p {
   margin: 0 auto;
 }  
 
+.service-item{
+
+  display:grid;
+
+  grid-template-columns:
+  120px 1fr;
+
+  gap:40px;
+
+  padding:55px 0;
+
+  border-top:1px solid rgba(31,41,51,.08);
+
+}
+
+.service-item:last-child{
+
+  border-bottom:1px solid rgba(31,41,51,.08);
+
+}
+
+.service-number{
+
+  font-family:'Playfair Display', serif;
+
+  font-size:42px;
+
+  color:rgba(31,41,51,.28);
+
+}
+
+.service-content h3{
+
+  font-family:'Playfair Display', serif;
+
+  font-size:34px;
+
+  font-weight:500;
+
+  color:#1f2933;
+
+  margin-bottom:18px;
+
+}
+
+.service-content p{
+
+  max-width:620px;
+
+  font-size:18px;
+
+  line-height:1.9;
+
+  color:rgba(31,41,51,.65);
+
+}
+
