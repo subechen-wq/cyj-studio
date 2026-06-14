@@ -385,6 +385,29 @@ p {
   margin-top: 22px;
 }
 
+.about-approach {
+  max-width: 980px;
+  margin: 72px 0 86px 48px;
+  padding-top: 34px;
+  border-top: 1px solid rgba(31, 41, 51, 0.12);
+}
+
+.approach-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: rgba(31, 41, 51, 0.55);
+  margin-bottom: 18px;
+}
+
+.about-approach p {
+  max-width: 860px;
+  font-size: 26px;
+  line-height: 1.65;
+  color: rgba(31, 41, 51, 0.56);
+  margin: 0;
+}
+
 .about-lead,
 .about-description{
   margin-left: 48px;
