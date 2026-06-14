@@ -385,6 +385,11 @@ p {
   margin-top: 22px;
 }
 
+.about-lead,
+.about-description{
+  margin-left: 48px;
+}
+
 .about-grid{
   margin-top:55px;
 
