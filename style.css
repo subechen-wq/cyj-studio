@@ -575,7 +575,6 @@ p {
 }  
 
 .service-item{
-
   display:grid;
 
   grid-template-columns:
@@ -584,9 +583,10 @@ p {
   gap:40px;
 
   padding:65px 0;
-  
+
   border-top:1px solid rgba(31,41,51,.08);
 
+  transition:.45s ease;
 }
 
 .service-item:last-child{
@@ -596,17 +596,16 @@ p {
 }
 
 .service-number{
-
   font-family:'Playfair Display', serif;
 
   font-size:46px;
 
   color:rgba(31,41,51,.22);
 
+  transition:.45s ease;
 }
 
 .service-content h3{
-
   font-family:'Playfair Display', serif;
 
   font-size:30px;
@@ -615,9 +614,24 @@ p {
 
   color:#1f2933;
 
-  margin-bottom:18px;
+  margin-bottom:24px;
+
+  transition:.45s ease;
+}
+
+.service-item:hover .service-number{
+
+  color:rgba(31,41,51,.42);
+
+  transform:translateY(-3px);
 
 }
+
+.service-item:hover h3{
+
+  transform:translateX(8px);
+
+}  
 
 .service-content p{
 
