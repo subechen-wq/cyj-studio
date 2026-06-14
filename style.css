@@ -340,14 +340,16 @@ p {
   pointer-events:none;
 }
 
-.about-inner{
-  position:relative;
-  z-index:1;
-}
-
 .about-inner {
   max-width: 980px;
   margin: 0 auto;
+  position:relative;
+  z-index:1;
+  display:grid;
+  grid-template-columns:
+  1.1fr .9fr;
+  gap:100px;
+  align-items:start;
 }
 
 .section-label {
