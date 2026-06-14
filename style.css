@@ -539,7 +539,7 @@ p {
 
 .services {
   ackground:#edf3f7;
-  padding:180px 8%;
+  padding:150px 8% 170px;
 }
 
 .services-header {
@@ -583,8 +583,8 @@ p {
 
   gap:40px;
 
-  padding:55px 0;
-
+  padding:65px 0;
+  
   border-top:1px solid rgba(31,41,51,.08);
 
 }
