@@ -377,7 +377,7 @@ p {
 }
 
 .about-grid{
-  margin-top:90px;
+  margin-top:55px;
 
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -493,6 +493,7 @@ p {
 
   font-size:17px;
   line-height:1.9;
+  font-weight:500;
 
   color:
   color: rgba(31,41,51,.72);
