@@ -394,8 +394,9 @@ p {
 
 .approach-label {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.22em;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  opacity: .55;
   color: rgba(31, 41, 51, 0.55);
   margin-bottom: 18px;
 }
