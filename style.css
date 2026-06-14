@@ -621,13 +621,15 @@ p {
 
 .service-content p{
 
-  max-width:620px;
+  max-width:680px;
 
-  font-size:18px;
+  font-size:22px;
 
-  line-height:1.9;
+  line-height:1.95;
 
-  color:rgba(31,41,51,.65);
+  ont-weight:400;
+
+  color:rgba(31,41,51,.70);
 
 }
 
