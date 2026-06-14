@@ -587,6 +587,31 @@ p {
   border-top:1px solid rgba(31,41,51,.08);
 
   transition:.45s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+.service-item::before{
+
+  content:"";
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+  radial-gradient(
+    circle at center,
+    rgba(173,216,255,.12),
+    transparent 70%
+  );
+
+  opacity:0;
+
+  transition:.6s ease;
+
+  pointer-events:none;
+
 }
 
 .service-item:last-child{
@@ -626,6 +651,12 @@ p {
   transform:translateY(-3px);
 
 }
+
+.service-item:hover::before{
+
+  opacity:1;
+
+}  
 
 .service-item:hover h3{
 
