@@ -301,6 +301,32 @@ p {
   padding: 150px 10%;
   background: #f8f4ef;
   color: #1f2933;
+  overflow:hidden;
+}
+
+.about-section::before{
+  content:"";
+
+  position:absolute;
+  inset:0;
+
+  background:
+    radial-gradient(circle at 22% 55%, rgba(255,255,255,.65), transparent 26%),
+    radial-gradient(circle at 72% 48%, rgba(220,205,185,.28), transparent 30%),
+    linear-gradient(
+      115deg,
+      transparent 0%,
+      rgba(255,255,255,.22) 42%,
+      transparent 58%
+    );
+
+  opacity:.7;
+  pointer-events:none;
+}
+
+.about-inner{
+  position:relative;
+  z-index:1;
 }
 
 .about-inner {
