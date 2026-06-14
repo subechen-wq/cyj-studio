@@ -311,14 +311,27 @@ p {
   inset:0;
 
   background:
-    radial-gradient(circle at 22% 55%, rgba(255,255,255,.65), transparent 26%),
-    radial-gradient(circle at 72% 48%, rgba(220,205,185,.28), transparent 30%),
-    linear-gradient(
+    repeating-linear-gradient(
       115deg,
-      transparent 0%,
-      rgba(255,255,255,.22) 42%,
-      transparent 58%
+      rgba(185,157,125,.055) 0px,
+      rgba(185,157,125,.055) 1px,
+      transparent 1px,
+      transparent 34px
+    ),
+    radial-gradient(
+      circle at 22% 50%,
+      rgba(255,255,255,.75),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 75% 45%,
+      rgba(185,157,125,.16),
+      transparent 34%
     );
+
+  opacity:.85;
+  pointer-events:none;
+}
 
   opacity:.7;
   pointer-events:none;
