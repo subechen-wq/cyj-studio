@@ -389,7 +389,7 @@ p {
   max-width: 980px;
   margin: 72px 0 86px 48px;
   padding-top: 34px;
-  border-top: 1px solid rgba(31, 41, 51, 0.12);
+  border-top: 1px solid rgba(31,41,51,.08);
   margin-bottom:64px;
 }
 
@@ -602,7 +602,7 @@ p {
   background:
   radial-gradient(
     circle at center,
-    rgba(173,216,255,.12),
+    rgba(183,220,255,.20),
     transparent 70%
   );
 
@@ -643,6 +643,13 @@ p {
 
   transition:.45s ease;
 }
+
+.service-item:hover{
+
+  border-top:
+  1px solid rgba(185,210,235,.55);
+
+}  
 
 .service-item:hover .service-number{
 
