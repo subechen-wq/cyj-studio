@@ -537,3 +537,40 @@ p {
   color: rgba(31,41,51,.68);
 }
 
+.services {
+  background: #f6fbff;
+  padding: 150px 8%;
+}
+
+.services-header {
+  max-width: 980px;
+  margin: 0 auto 90px;
+}
+
+.services-header .section-tag {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: rgba(31, 41, 51, .55);
+  margin-bottom: 20px;
+}
+
+.services-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  line-height: 1.1;
+  color: #1f2933;
+  margin-bottom: 28px;
+}
+
+.services-header p {
+  max-width: 760px;
+  font-size: 22px;
+  line-height: 1.8;
+  color: rgba(31, 41, 51, .68);
+}
+
+.service-list {
+  max-width: 980px;
+  margin: 0 auto;
+}  
+
