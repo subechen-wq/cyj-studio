@@ -402,9 +402,9 @@ p {
 
 .about-approach p {
   max-width: 860px;
-  font-size: 22px;
-  line-height: 1.8;
-  color: rgba(31, 41, 51, 0.56);
+  font-size: 24px;
+  line-height: 1.75;
+  color: rgba(31,41,51,.60);
   margin: 0;
 }
 
