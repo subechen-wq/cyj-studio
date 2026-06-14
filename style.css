@@ -347,45 +347,65 @@ p {
 }
 
 .capability-card:nth-child(2){
-  transform:translateY(40px);
+  transform: translateY(18px);
 }
 
 .capability-card:nth-child(3){
-  transform:translateY(80px);
+  transform: translateY(36px);
 }
 
 .capability-card{
+  position: relative;
 
-  padding:28px;
+  padding: 30px 34px;
 
   background:
-  rgba(255,255,255,.35);
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.52),
+      rgba(255,255,255,.22)
+    );
 
-  backdrop-filter:
-  blur(24px);
+  backdrop-filter: blur(26px);
+  -webkit-backdrop-filter: blur(26px);
 
-  -webkit-backdrop-filter:
-  blur(24px);
-
-  border:
-  1px solid
-  rgba(255,255,255,.65);
-
-  border-radius:28px;
+  border: 1px solid rgba(255,255,255,.72);
+  border-radius: 30px;
 
   box-shadow:
-  0 12px 40px
-  rgba(0,0,0,.04);
+    0 28px 60px rgba(80,70,60,.08),
+    inset 0 1px 0 rgba(255,255,255,.75);
 
+  transition: .45s ease;
 }
-.capability-card:hover{
 
-  transform:
-  translateY(-8px);
+.capability-card::after{
+  content:"";
+
+  position:absolute;
+  left:14%;
+  right:14%;
+  bottom:-22px;
+
+  height:18px;
+
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(120,105,90,.18),
+      rgba(120,105,90,0) 70%
+    );
+
+  filter: blur(10px);
+  z-index:-1;
+}
+
+.capability-card:hover{
+  transform: translateY(-4px);
 
   box-shadow:
-  0 30px 70px
-  rgba(0,0,0,.08);
+    0 34px 70px rgba(80,70,60,.10),
+    inset 0 1px 0 rgba(255,255,255,.8);
 }
 
 .capability-card span{
