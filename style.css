@@ -381,14 +381,14 @@ p {
 
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  gap:30px;
+  gap:40px;
 
   align-items:stretch;
 }
 
 .capability-card{
   position: relative;
-  min-height: 260px;
+  min-height: 230px;
   padding: 34px 36px;
 
   background:
