@@ -637,8 +637,8 @@ a {
 
   .work-main {
     display: grid;
-    grid-template-columns: minmax(420px, 0.9fr) minmax(640px, 1.1fr);
-    gap: 72px;
+    grid-template-columns: minmax(420px, 0.8fr) minmax(640px, 1.2fr);
+    gap: 48px;
     align-items: center;
   }
   
@@ -721,11 +721,12 @@ a {
     display: block;
     text-decoration: none;
     color: inherit;
+    transform: translateY(-18px);
   }
   
   .work-image-wrap {
     width: 100%;
-    max-width: 560px;
+    max-width: 620px;
     margin-left: auto;
   
     aspect-ratio: 16 / 9;
