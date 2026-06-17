@@ -1,3 +1,6 @@
+body {
+  outline: 10px solid red;
+}
 :root {
   --bg: #f8f8f6;
   --text: #171717;
