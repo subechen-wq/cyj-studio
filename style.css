@@ -362,6 +362,140 @@ a {
   }
 
   /* =================================
+   Selected Work
+  ================================= */
+  
+  .work-section {
+    padding: 150px 56px;
+    background: #faf9f7;
+    color: #121212;
+  }
+  
+  .work-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+  
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 72px;
+  }
+  
+  .work-label {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: rgba(31,41,51,.72);
+  
+    padding-top: 8px;
+  }
+  
+  .work-content {
+    max-width: 860px;
+  }
+  
+  .work-header {
+    max-width: 720px;
+  }
+  
+  .work-number {
+    display: block;
+    margin-bottom: 28px;
+  
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .12em;
+    color: rgba(31,41,51,.58);
+  }
+  
+  .work-header h2 {
+    margin: 0 0 24px;
+  
+    font-size: clamp(40px, 5vw, 72px);
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: -0.06em;
+  
+    color: rgba(18,18,18,.94);
+  }
+  
+  .work-header p {
+    max-width: 560px;
+  
+    font-size: 17px;
+    line-height: 1.75;
+    color: rgba(18,18,18,.62);
+  }
+  
+  .work-meta {
+    margin-top: 46px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(18,18,18,.1);
+  
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  
+  .work-meta span {
+    font-size: 13px;
+    letter-spacing: .06em;
+    color: rgba(18,18,18,.5);
+  }
+  
+  .work-preview {
+    display: block;
+    margin-top: 56px;
+    text-decoration: none;
+  }
+  
+  .work-image-placeholder {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  
+    background:
+      linear-gradient(
+        135deg,
+        rgba(18,18,18,.08),
+        rgba(18,18,18,.03)
+      );
+  
+    border: 1px solid rgba(18,18,18,.08);
+    border-radius: 2px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    overflow: hidden;
+  
+    transition:
+      transform .8s ease,
+      border-color .8s ease,
+      background .8s ease;
+  }
+  
+  .work-image-placeholder span {
+    font-size: 12px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: rgba(18,18,18,.36);
+  }
+  
+  .work-preview:hover .work-image-placeholder {
+    transform: translateY(-6px);
+    border-color: rgba(18,18,18,.18);
+  }
+  
+  .work-note {
+    margin-top: 42px;
+  
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(18,18,18,.46);
+  }  
+
+  /* =================================
      Reveal Animation
   ================================= */
   
@@ -385,4 +519,27 @@ a {
   .reveal-delay-2 {
     transition-delay: .24s;
   }  
+}
+
+@media (max-width: 900px) {
+  .work-section {
+    padding: 120px 28px;
+  }
+
+  .work-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .work-label {
+    padding-top: 0;
+  }
+
+  .work-meta {
+    gap: 16px;
+  }
+
+  .work-preview {
+    margin-top: 44px;
+  }
 }
