@@ -635,21 +635,58 @@ a {
     }
   }
 
+  .work-main {
+    display: grid;
+    grid-template-columns: minmax(360px, 0.9fr) minmax(420px, 1.1fr);
+    gap: 72px;
+    align-items: center;
+  }
+  
+  .work-info {
+    background: rgba(255,255,255,.34);
+    padding: 46px 48px 0;
+  }
+  
+  .work-number {
+    display: block;
+    margin-bottom: 26px;
+  
+    font-size: 14px;
+    letter-spacing: .12em;
+    color: rgba(31,41,51,.58);
+  }
+  
+  .work-info h2 {
+    font-size: clamp(42px, 4.8vw, 64px);
+    line-height: 1.02;
+    letter-spacing: -0.05em;
+    margin: 0 0 26px;
+  }
+  
+  .work-info p {
+    max-width: 520px;
+  
+    font-size: 17px;
+    line-height: 1.8;
+    color: rgba(31,41,51,.72);
+  
+    margin: 0;
+  }
+  
   .work-link {
     display: inline-block;
-    margin-top: 28px;
+    margin-top: 34px;
   
-    font-family: "Inter", sans-serif;
     font-size: 12px;
-    letter-spacing: .16em;
+    letter-spacing: .18em;
     text-transform: uppercase;
   
-    color: rgba(18,18,18,.56);
+    color: rgba(31,41,51,.58);
     text-decoration: none;
   
     transition:
-      color .4s ease,
-      transform .4s ease;
+      color .45s ease,
+      transform .45s ease;
   }
   
   .work-link::after {
@@ -658,17 +695,68 @@ a {
   }
   
   .work-link:hover {
-    color: rgba(18,18,18,.92);
+    color: rgba(31,41,51,.95);
     transform: translateX(3px);
+  }
+  
+  .work-meta {
+    margin-top: 44px;
+    padding-top: 22px;
+    border-top: 1px solid rgba(31,41,51,.12);
+  
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+  
+    font-size: 13px;
+    letter-spacing: .06em;
+    color: rgba(31,41,51,.58);
   }
   
   .work-image-link {
     display: block;
-    color: inherit;
     text-decoration: none;
+    color: inherit;
+  }
+  
+  .work-image-wrap {
+    width: 100%;
+    max-width: 560px;
+    margin-left: auto;
+  
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  
+    background: #f1efeb;
+    border: 1px solid rgba(18,18,18,.08);
+    box-shadow: 0 22px 48px rgba(18,18,18,.16);
+  
+    transition:
+      transform .7s ease,
+      box-shadow .7s ease,
+      border-color .7s ease;
+  }
+  
+  .work-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   
   .work-image-link:hover .work-image-wrap {
-    transform: translateY(-4px);
-    border-color: rgba(18,18,18,.18);
+    transform: translateY(-6px);
+    border-color: rgba(18,18,18,.16);
+    box-shadow: 0 30px 64px rgba(18,18,18,.2);
+  }
+  
+  .work-note {
+    width: fit-content;
+    margin: 110px auto 0;
+    padding: 18px 26px;
+  
+    background: rgba(255,255,255,.36);
+  
+    font-size: 15px;
+    color: rgba(31,41,51,.68);
   }
