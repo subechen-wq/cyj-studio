@@ -657,11 +657,11 @@ a {
   }
   
   .work-info h2{
-    font-family: "Inter", sans-serif;
-    font-size: clamp(54px, 5vw, 78px);
-    font-weight: 200;
-    line-height: .98;
-    letter-spacing: -.04em;
+    font-family: "Playfair Display", serif;
+    font-size: clamp(52px, 5vw, 72px);
+    font-weight: 400;
+    line-height: .95;
+    letter-spacing: -.02em;
   }
   
   .work-info p {
