@@ -357,4 +357,25 @@ a {
   .approach-number {
     padding-top: 0;
   }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+      opacity .9s ease,
+      transform .9s ease;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .reveal-delay {
+    transition-delay: .12s;
+  }
+  
+  .reveal-delay-2 {
+    transition-delay: .24s;
+  }  
 }
