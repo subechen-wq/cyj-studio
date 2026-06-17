@@ -226,12 +226,9 @@ a {
     left: 24px;
     right: 24px;
     bottom: 34px;
-  }
-  
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
     z-index: 3;
   }
 }
@@ -247,7 +244,6 @@ a {
     grid-template-columns: 220px 700px;
     gap: 120px;
     align-items: start;
-    background: rgba(255,0,0,.05);
   }
   
   .approach-label {
