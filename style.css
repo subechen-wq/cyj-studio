@@ -257,7 +257,7 @@ a {
     font-size: 11px;
     letter-spacing: .22em;
     text-transform: uppercase;
-    color: rgba(31, 41, 51, .42);
+    color: rgba(31,41,51,.58);
   
     padding-top: 10px;
   }
@@ -289,7 +289,7 @@ a {
     grid-template-columns: 72px 1fr;
     gap: 32px;
   
-    padding: 36px 0;
+    padding: 28px 0;
     border-bottom: 1px solid rgba(31, 41, 51, .14);
   
     transition:
@@ -308,7 +308,7 @@ a {
   
   .approach-item h3 {
     font-family: 'Inter', sans-serif;
-    font-size: clamp(30px, 3vw, 48px);
+    font-size: clamp(22px, 2vw, 32px);
     font-weight: 300;
     letter-spacing: -0.045em;
     margin-bottom: 16px;
@@ -316,9 +316,9 @@ a {
   }
   
   .approach-item p {
-    max-width: 560px;
-    font-size: 16px;
-    line-height: 1.85;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 520px;
     color: rgba(31, 41, 51, .62);
   }
   
@@ -339,7 +339,7 @@ a {
 
   .approach-inner {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 72px;
   }
 
   .approach-label {
