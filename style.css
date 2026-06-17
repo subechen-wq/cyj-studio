@@ -450,42 +450,28 @@ a {
     text-decoration: none;
   }
   
-  .work-image-placeholder {
+  .work-image-wrap {
     aspect-ratio: 16 / 9;
     width: 100%;
   
-    background:
-      linear-gradient(
-        135deg,
-        rgba(18,18,18,.08),
-        rgba(18,18,18,.03)
-      );
-  
-    border: 1px solid rgba(18,18,18,.08);
-    border-radius: 2px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
+    border: 1px solid rgba(18,18,18,.1);
     overflow: hidden;
   
-    transition:
-      transform .8s ease,
-      border-color .8s ease,
-      background .8s ease;
+    background: #f1efeb;
+  }
+
+  .work-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  
+    transform: scale(1.01);
+    transition: transform 1.2s ease;
   }
   
-  .work-image-placeholder span {
-    font-size: 12px;
-    letter-spacing: .18em;
-    text-transform: uppercase;
-    color: rgba(18,18,18,.36);
-  }
-  
-  .work-preview:hover .work-image-placeholder {
-    transform: translateY(-6px);
-    border-color: rgba(18,18,18,.18);
+  .work-preview:hover .work-image-wrap img {
+    transform: scale(1.045);
   }
   
   .work-note {
