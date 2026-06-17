@@ -1,213 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>CYJ Studio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CYJ Studio | Thoughtful Digital Studio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <section class="hero">
-    <canvas id="rippleCanvas"></canvas>
-    <div class="mouse-glow"></div>
+<body>
 
-    <nav class="navbar">
-      <div class="logo">CYJ Studio</div>
+  <header class="site-header">
+    <a href="#" class="brand">CYJ Studio</a>
 
-      <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-      </div>
+    <nav class="nav">
+      <a href="#approach">Approach</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
 
-    <div class="hero-content">
-      <h1>CYJ Studio</h1>
-      <p>Crafting Elegant Digital Experiences</p>
+    <button class="lang-toggle">中文 / EN</button>
+  </header>
 
-      <div class="subtitle">
-        AI × Design × Development
+  <main>
+    <section class="hero" id="home">
+      <div class="ambient-light"></div>
+
+      <div class="hero-inner">
+        <p class="eyebrow">Thoughtful Digital Studio</p>
+
+        <h1>
+          Building digital experiences
+          <span>people understand,</span>
+          <span>trust,</span>
+          <span>and enjoy using.</span>
+        </h1>
       </div>
 
-      <div class="hero-buttons">
-        <a href="#" class="btn primary">Explore Work</a>
-        <a href="#" class="btn secondary">Start a Project</a>
+      <div class="hero-footer">
+        <a href="#work">Selected Work</a>
+        <a href="#contact">Let’s Talk →</a>
       </div>
-    </div>
+    </section>
+  </main>
 
-</section>
-
-    <section class="about-section" id="about">
-
-      <div class="about-inner">
-    
-        <div class="about-text">
-    
-          <div class="section-label">DESIGN PHILOSOPHY</div>
-      
-          <h2>
-            Design is not simply about<br>
-            making things beautiful.
-            <br>
-            It is about creating experiences<br>
-            people remember.
-          </h2>
-      
-          <p class="about-lead">
-            At CYJ Studio, every digital product should balance
-            beauty, experience, and meaningful value.
-          </p>
-
-          <p class="about-description">
-            From brand websites and interactive experiences
-            to AI-powered digital products,
-            I combine creativity, technology, and business goals
-            to craft experiences that feel both human and purposeful.
-          </p>
-
-        </div>  
-
-          <div class="about-bridge">
-
-            <div class="about-approach">
-
-              <div class="approach-label">
-                MY APPROACH
-              </div>
-            
-              <p>
-                Every project begins with understanding people,
-                refining ideas, and designing experiences that feel
-                both intuitive and meaningful.
-              </p>
-            
-            </div>
-    
-        <div class="about-grid">
-    
-          <div class="capability-card">
-            <span>01</span>
-            <h3>Visual Design</h3>
-            <p>
-              Creating visual identities that feel
-              timeless, elegant, and memorable.
-            </p>
-          </div>
-        
-          <div class="capability-card">
-            <span>02</span>
-            <h3>Digital Experience</h3>
-            <p>
-              Transforming ideas into immersive digital
-              experiences that feel effortless to use.
-            </p>
-          </div>
-        
-          <div class="capability-card">
-            <span>03</span>
-            <h3>AI Innovation</h3>
-            <p>
-              Exploring how AI can create meaningful value
-              and elevate everyday experiences.
-            </p>
-          </div>
-        
-        </div>
-        
-      </div>
-
-    </div>
-
-  </section>
-
-     <section class="services">
-
-        <div class="services-header">
-      
-          <div class="section-tag">
-            SERVICES
-          </div>
-      
-          <h2>
-            What I Create
-          </h2>
-      
-          <p>
-            Combining design, technology,
-            and thoughtful innovation
-            to create meaningful digital experiences.
-          </p>
-      
-        </div>
-      
-        <div class="service-list">
-
-          <div class="service-item">
-        
-            <div class="service-number">
-              01
-            </div>
-        
-            <div class="service-content">
-        
-              <h3>Brand Website Design</h3>
-        
-              <p>
-                Designing elegant digital homes for personal brands,
-                creative professionals, and businesses ready to be seen with clarity.
-              </p>
-        
-            </div>
-        
-          </div>
-        
-          <div class="service-item">
-        
-            <div class="service-number">
-              02
-            </div>
-        
-            <div class="service-content">
-        
-              <h3>Digital Experience Design</h3>
-        
-              <p>
-                Designing intuitive interfaces and
-                immersive interactions that people
-                genuinely enjoy and find effortless to use.
-              </p>
-                      
-            </div>
-        
-          </div>
-        
-          <div class="service-item">
-        
-            <div class="service-number">
-              03
-            </div>
-        
-            <div class="service-content">
-        
-              <h3>AI Product Design</h3>
-        
-              <p>
-                Shaping AI-powered tools and digital products
-                that bring meaningful value into everyday workflows.
-              </p>
-        
-            </div>
-        
-          </div>
-        
-        </div>
-      
-      </section>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
