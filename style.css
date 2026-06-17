@@ -760,3 +760,28 @@ a {
     font-size: 15px;
     color: rgba(31,41,51,.68);
   }
+
+  @media (max-width: 900px) {
+    .work-main {
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+  
+    .work-info {
+      padding: 0;
+      background: transparent;
+    }
+  
+    .work-image-wrap {
+      max-width: 100%;
+      margin-left: 0;
+    }
+  
+    .work-meta {
+      gap: 22px;
+    }
+  
+    .work-note {
+      margin-top: 72px;
+    }
+  }
