@@ -358,6 +358,10 @@ a {
     padding-top: 0;
   }
 
+  /* =================================
+     Reveal Animation
+  ================================= */
+  
   .reveal {
     opacity: 0;
     transform: translateY(28px);
