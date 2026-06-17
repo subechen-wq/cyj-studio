@@ -236,54 +236,55 @@ a {
   }
 }
 
-/* ==========================
-   THE APPROACH
-========================== */
-
-.approach-section{
-  padding:220px 56px;
-
-  max-width:1400px;
-  margin:0 auto;
-
-  display:grid;
-  grid-template-columns:220px 700px;
-  gap:120px;
-}
-
-.approach-label{
-  font-size:12px;
-  letter-spacing:.18em;
-  color:rgba(20,20,20,.45);
-}
-
-.approach-content{
-  max-width:720px;
-}
-
-.approach-item{
-  padding-bottom:90px;
-}
-
-.approach-item:last-child{
-  padding-bottom:0;
-}
-
-.approach-item h3{
-  margin:0 0 18px;
-
-  font-size:42px;
-  font-weight:400;
-  letter-spacing:-0.03em;
-}
-
-.approach-item p{
-  margin:0;
-
-  max-width:520px;
-
-  font-size:22px;
-  line-height:1.8;
+  /* ==========================
+     THE APPROACH
+  ========================== */
+  
+  .approach-section {
+    width: 100%;
+    padding: 220px 56px;
+    display: grid;
+    grid-template-columns: 220px 700px;
+    gap: 120px;
+    align-items: start;
+  }
+  
+  .approach-label {
+    font-size: 12px;
+    letter-spacing: .18em;
+    color: rgba(20,20,20,.45);
+    text-transform: uppercase;
+  }
+  
+  .approach-content {
+    max-width: 700px;
+  }
+  
+  .approach-item {
+    padding-bottom: 90px;
+  }
+  
+  .approach-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .approach-item h3 {
+    margin: 0 0 18px;
+  
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+  }
+  
+  .approach-item p {
+    margin: 0;
+    max-width: 520px;
+  
+    font-size: 22px;
+    line-height: 1.8;
+  
+    color: rgba(20,20,20,.65);
+  }
 
   color:rgba(20,20,20,.65);
 }
