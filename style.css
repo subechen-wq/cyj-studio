@@ -92,14 +92,14 @@ a {
 .hero {
   position: relative;
   min-height: 100vh;
-  padding-top:80px;
-  padding-right:56px;
-  padding-bottom:120px;
-  padding-left:56px;
+  padding-top: 80px;
+  padding-right: 56px;
+  padding-bottom: 120px;
+  padding-left: 56px;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 
   overflow: hidden;
 }
@@ -108,7 +108,7 @@ a {
   position: relative;
   z-index: 2;
   max-width: 680px;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 .eyebrow {
