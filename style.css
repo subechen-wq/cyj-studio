@@ -238,11 +238,11 @@ a {
   ========================== */
   
   .approach-section {
-    padding: 150px 56px;
-    background: #f7f4ef;
-    color: #1f2933;
+    padding: 160px 56px;
+    background: #faf9f7;
+    color: #121212;
   }
-  
+    
   .approach-inner {
     max-width: 1120px;
     margin: 0 auto;
@@ -271,11 +271,12 @@ a {
   }
   
   .approach-intro p {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(32px, 4vw, 56px);
-    line-height: 1.12;
-    letter-spacing: -0.035em;
-    color: rgba(31, 41, 51, .9);
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(42px, 5vw, 76px);
+    line-height: 1.08;
+    font-weight: 300;
+    letter-spacing: -0.06em;
+    color: rgba(18, 18, 18, .92);
   }
   
   .approach-list {
@@ -305,12 +306,12 @@ a {
   }
   
   .approach-item h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(26px, 2.6vw, 38px);
-    font-weight: 400;
-    letter-spacing: -0.025em;
-    margin-bottom: 14px;
-    color: #1f2933;
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(30px, 3vw, 48px);
+    font-weight: 300;
+    letter-spacing: -0.045em;
+    margin-bottom: 16px;
+    color: rgba(18, 18, 18, .92);
   }
   
   .approach-item p {
