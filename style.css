@@ -247,6 +247,7 @@ a {
     grid-template-columns: 220px 700px;
     gap: 120px;
     align-items: start;
+    background: rgba(255,0,0,.05);
   }
   
   .approach-label {
