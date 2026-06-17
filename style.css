@@ -656,12 +656,15 @@ a {
     color: rgba(31,41,51,.58);
   }
   
-  .work-info h2{
-    font-family: "Playfair Display", serif;
-    font-size: clamp(52px, 5vw, 72px);
-    font-weight: 400;
-    line-height: .95;
-    letter-spacing: -.02em;
+  .work-info h2 {
+    font-family: "Inter", sans-serif;
+    font-size: clamp(64px, 5.6vw, 92px);
+    font-weight: 300;
+    line-height: .98;
+    letter-spacing: -0.055em;
+  
+    margin: 0 0 42px;
+    color: rgba(18,18,18,.92);
   }
   
   .work-info p {
