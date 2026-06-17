@@ -254,12 +254,12 @@ a {
   
   .approach-label {
     font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    letter-spacing: .22em;
+    font-size: 13px;
+    letter-spacing: .18em;
     text-transform: uppercase;
-    color: rgba(31,41,51,.58);
+    color: rgba(31, 41, 51, .48);
   
-    padding-top: 10px;
+    padding-top: 4px;
   }
   
   .approach-content {
