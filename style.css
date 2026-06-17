@@ -524,6 +524,14 @@ a {
   .reveal-delay-2 {
     transition-delay: .24s;
   }  
+
+  .approach-item.reveal.active:hover {
+    transform: translateX(10px);
+  }
+  
+  .approach-item.reveal.active:hover .approach-number {
+    color: rgba(31,41,51,.7);
+  }
 }
 
 @media (max-width: 900px) {
