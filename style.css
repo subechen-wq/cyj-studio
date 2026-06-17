@@ -490,6 +490,9 @@ a {
   
   .work-note {
     margin-top: 48px;
+    padding-top: 28px;
+  
+    border-top: 1px solid rgba(18,18,18,.1);
   
     font-size: 18px;
     line-height: 1.7;
