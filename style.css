@@ -108,7 +108,7 @@ a {
   position: relative;
   z-index: 2;
   max-width: 720px;
-  margin-top:180px;
+  margin-top:60px;
 }
 
 .eyebrow {
@@ -220,8 +220,11 @@ a {
   .hero {
     position: relative;
     min-height: 100vh;
-    padding: 150px 56px 120px;
-  
+    padding-top:110px;
+    padding-right:56px;
+    padding-bottom:120px;
+    padding-left:56px;
+    
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
