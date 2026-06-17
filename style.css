@@ -242,9 +242,13 @@ a {
 
 .approach-section{
   padding:220px 56px;
+
+  max-width:1400px;
+  margin:0 auto;
+
   display:grid;
-  grid-template-columns:320px 1fr;
-  gap:80px;
+  grid-template-columns:220px 700px;
+  gap:120px;
 }
 
 .approach-label{
