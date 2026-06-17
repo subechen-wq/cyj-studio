@@ -263,7 +263,7 @@ a {
   }
   
   .approach-content {
-    max-width: 780px;
+    max-width: 720px;
   }
   
   .approach-intro {
@@ -280,7 +280,8 @@ a {
   }
   
   .approach-list {
-    border-top: 1px solid rgba(31, 41, 51, .14);
+    margin-top:24px;
+    border-top:1px solid rgba(18,18,18,.08);
   }
   
   .approach-item {
