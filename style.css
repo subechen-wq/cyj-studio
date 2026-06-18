@@ -730,9 +730,9 @@ a {
     
     .about-label {
       font-family: "Inter", sans-serif;
-      font-size: 18px;
-      font-weight: 400;
-      letter-spacing: .28em;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: .22em;
       color: rgba(45,73,96,.86);
     }
     
@@ -798,12 +798,12 @@ a {
   }
   
   .contact-label {
-    margin-bottom: 54px;
+    margin-bottom: 64px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .22em;
   
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    letter-spacing: .18em;
-    color: rgba(31, 41, 51, .48);
+    color: rgba(31,41,51,.72);
   }
   
   .contact-content {
@@ -815,11 +815,12 @@ a {
   
   .contact-heading h2 {
     margin: 0;
+    max-width: 680px;
   
     font-family: "Inter", sans-serif;
-    font-size: clamp(62px, 6.2vw, 104px);
+    font-size: clamp(54px, 5.4vw, 88px);
     font-weight: 300;
-    line-height: .98;
+    line-height: .94;
     letter-spacing: -0.065em;
   
     color: rgba(18, 18, 18, .9);
