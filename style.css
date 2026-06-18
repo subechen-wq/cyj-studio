@@ -816,11 +816,11 @@ a {
   .contact-heading h2 {
     margin: 0;
   
-    font-family: "Playfair Display", serif;
-    font-size: clamp(58px, 7vw, 112px);
+    font-family: "Inter", sans-serif;
+    font-size: clamp(62px, 6.2vw, 104px);
     font-weight: 300;
-    line-height: .96;
-    letter-spacing: -0.055em;
+    line-height: .98;
+    letter-spacing: -0.065em;
   
     color: rgba(18, 18, 18, .9);
   }
