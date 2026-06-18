@@ -890,7 +890,6 @@ a {
   .contact-links a:hover::after {
     transform: scaleX(1);
   }
-}
 
 @media (max-width: 820px) {
   .contact-section {
