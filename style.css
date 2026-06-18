@@ -853,4 +853,14 @@ a {
   
     max-width: 900px;
   }
+
+  .about-footnote {
+    margin-top: 110px;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    letter-spacing: .12em;
+  
+    color: rgba(31,41,51,.42);
+  }  
 }
