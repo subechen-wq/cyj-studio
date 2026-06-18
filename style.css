@@ -370,6 +370,7 @@ a {
     padding: 120px 56px;
     background: #faf9f7;
     color: #121212;
+    padding-bottom: 170px;
   }
   
   .work-inner {
@@ -521,8 +522,8 @@ a {
   
   .reveal-delay-2 {
     transition-delay: .24s;
-  }  
-
+  }
+  
   .approach-item.reveal.active:hover {
     transform: translateX(10px);
   }
@@ -807,6 +808,7 @@ a {
     padding: 180px 56px 190px;
     background: #f7f4ef;
     color: rgba(18,18,18,.92);
+    border-top: 1px solid rgba(18,18,18,.06);
   }
   
   .about-inner {
