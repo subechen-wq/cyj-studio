@@ -756,7 +756,7 @@ a {
     }
     
     .about-body {
-      max-width: 760px;
+      max-width: 620px;
       margin-top: 76px;
     }
     
@@ -764,10 +764,10 @@ a {
       margin: 0;
     
       font-family: "Inter", sans-serif;
-      font-size: clamp(22px, 1.7vw, 30px);
+      font-size: clamp(18px, 1.2vw, 22px);
       font-weight: 300;
-      line-height: 1.55;
-      letter-spacing: -0.025em;
+      line-height: 1.75;
+      letter-spacing: -0.01em;
     
       color: rgba(31,41,51,.68);
     }
