@@ -807,7 +807,8 @@ a {
   ================================= */
   
   .about-section {
-    padding: 220px 56px;
+    padding: 220px 56px 230px;
+    background: #f7f4ef;
     border-top: 1px solid rgba(18,18,18,.06);
   }
   
@@ -819,48 +820,58 @@ a {
   .about-label {
     margin-bottom: 72px;
   
+    font-family: "Inter", sans-serif;
     font-size: 13px;
+    font-weight: 400;
     letter-spacing: .16em;
     color: rgba(31,41,51,.48);
   }
   
-  .about-manifesto {
-    max-width: 920px;
-  }
-  
-  .about-manifesto p {
-    margin: 0;
+  .about-headline {
+    max-width: 980px;
   
     font-family: "Inter", sans-serif;
-    font-size: clamp(42px, 4.5vw, 72px);
+    font-size: clamp(64px, 7vw, 116px);
     font-weight: 300;
-    line-height: 1.08;
-    letter-spacing: -0.05em;
+    line-height: .95;
+    letter-spacing: -0.065em;
   
     color: rgba(18,18,18,.92);
   }
   
-  .about-manifesto p + p {
-    margin-top: 14px;
+  .about-headline-break {
+    margin-top: 34px;
   }
   
-  .about-space {
-    margin-top: 90px !important;
+  .about-body {
+    max-width: 760px;
+    margin-top: 96px;
+    margin-left: clamp(0px, 18vw, 260px);
   }
   
-  .about-closing {
-    margin-top: 90px !important;
+  .about-body p {
+    margin: 0;
   
-    max-width: 900px;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(20px, 1.6vw, 28px);
+    font-weight: 300;
+    line-height: 1.55;
+    letter-spacing: -0.02em;
+  
+    color: rgba(31,41,51,.72);
   }
-
+  
+  .about-body p + p {
+    margin-top: 34px;
+  }
+  
   .about-footnote {
-    margin-top: 110px;
+    margin-top: 120px;
   
     font-family: "Inter", sans-serif;
     font-size: 12px;
     letter-spacing: .12em;
   
     color: rgba(31,41,51,.42);
-  }  
+  }
 }
