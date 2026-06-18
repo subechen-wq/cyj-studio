@@ -750,8 +750,12 @@ a {
   /* Contact */
 
   .contact-section {
-    background: #faf9f7;
-    padding: 150px 56px 120px;
+    min-height: 100vh;
+  
+    display: flex;
+    align-items: center;
+  
+    padding: 120px 56px;
   }
   
   .contact-inner {
