@@ -331,7 +331,6 @@ a {
   .approach-item:hover .approach-number {
     color: rgba(31, 41, 51, .7);
   }
-}
 
   @media (max-width: 900px) {
   .approach-section {
@@ -531,7 +530,6 @@ a {
   .approach-item.reveal.active:hover .approach-number {
     color: rgba(31,41,51,.7);
   }
-}
 
 @media (max-width: 900px) {
   .work-section {
@@ -709,7 +707,7 @@ a {
       max-width: 100%;
       margin-left: 0;
     }
-}
+  }
 
     /* =================================
        About
@@ -786,7 +784,6 @@ a {
     
       color: rgba(31,41,51,.58);
     }
-  }
 
   /* Contact */
 
