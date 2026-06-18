@@ -800,4 +800,65 @@ a {
       max-width: 100%;
       margin-left: 0;
     }
+
+  /* About */
+
+  .about-section {
+    padding: 180px 56px 190px;
+    background: #f7f4ef;
+    color: rgba(18,18,18,.92);
   }
+  
+  .about-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  
+  .about-label {
+    margin-bottom: 46px;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .16em;
+    color: rgba(31,41,51,.45);
+  }
+  
+  .about-main {
+    max-width: 860px;
+  }
+  
+  .about-main p {
+    margin: 0;
+  
+    font-family: "Inter", sans-serif;
+    font-size: clamp(42px, 5.2vw, 76px);
+    font-weight: 300;
+    line-height: 1.08;
+    letter-spacing: -0.055em;
+  
+    color: rgba(18,18,18,.9);
+  }
+  
+  .about-values {
+    margin-top: 72px;
+  
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  
+  .about-values span {
+    padding: 10px 16px;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .02em;
+  
+    color: rgba(31,41,51,.62);
+    border: 1px solid rgba(31,41,51,.12);
+    border-radius: 999px;
+    background: rgba(255,255,255,.28);
+  }
+}
